@@ -26,9 +26,9 @@ kscan0: kscan {
     diode-direction = "col2row";
 
     row-gpios
-        = <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row0
+        = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row0
         , <&xiao_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row1
-        , <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row2
+        , <&xiao_d 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row2
         ;
     col-gpios
         = <&xiao_d 3  (GPIO_ACTIVE_HIGH)> // col0
