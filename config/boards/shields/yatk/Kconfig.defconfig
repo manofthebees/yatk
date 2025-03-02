@@ -1,0 +1,6 @@
+if SHIELD_YATK
+
+config ZMK_KEYBOARD_NAME
+    default "yatk"
+
+endif
